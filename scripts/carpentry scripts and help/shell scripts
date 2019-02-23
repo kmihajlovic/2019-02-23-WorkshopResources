@@ -1,0 +1,85 @@
+shell scripts
+
+instructor: Susan J. Miller
+
+commands:
+
+wc -l *.txt
+		count of lines; -c is characters, -w is count of words
+
+cut -f 2 Zimbabwe.cc.txt
+		f is for field
+
+cut -f 5,6 Zimbabwe.cc.txt
+		get only 5th and 6th columns for Zimbabwe
+
+cut -f 5 Zimbabwe.cc.txt | sort -n | head -2
+		'' but sort numerically, and only give the first two
+		sort -nr for reverse order
+
+ls | wc -l
+		counting the number of files in a directory using piping
+
+grep "2007" [W-Z]*.txt
+		grab regular expression
+		have to be specific when telling grep where to find the year
+		add backslash \b at beg and end to search for white space on either side
+
+grep "\b2007\b" [L-P]*.txt | wc -l
+		piping, counting how many files ==> 33
+
+grep "\b2007\b" *.txt | wc -l
+		142
+
+#### for loops
+
+$for gapminderfile in [W-Z]*.txt
+> do
+>   echo $gapminderfile
+> done
+
+-- for all the items in gapminderfile that begin with W-Z, return back the value of the file names
+
+$for gapminderfile in [W-Z]*.txt; do cut -f 5 $gapminderfile | head -1; done
+
+-- can put whole thing in one line and just use semi-colons
+
+
+
+  GNU nano 2.0.6      File: ../../../..scripts/loop_cut_arg.sh        Modified  
+
+for gapminderfile in [U-Z]*.txt
+do
+        echo $gapminderfile 
+        cut -f "$1,$2,$3" $gapminderfile | sort -n | head -1
+done
+
+-- modified to let user tell how many lines want
+
+for gapminderfile in [U-Z]*.txt
+do
+    echo $gapminderfile
+    cut -f "$1","$2","$3" $gapminderfile | sort -"$5" | head -"$4"
+done
+
+bash ../../../../scripts/loop_cut_arg.sh 1 4 5 5 nr
+
+
+---- add to loop_cut_arg.sh
+
+echo "columns for cut $1 $2 $3"
+echo "number of lines for head $4"
+echo "sort options $5"
+
+$@ to grab all command line arguments at once
+
+loop thru files that start with u-z
+print names and create new file
+
+--add this to the script after fi but before done
+
+ls C*txt > Cfiles
+
+--supports by reverse time
+ls -ltr
+

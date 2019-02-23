@@ -1,0 +1,51 @@
+git basics
+
+Instructor: Kristina Riemer
+
+covering the goatpath version of git -- tried and true
+
+versioning -- no more keeping copies
+
+using nano for editing
+
+-----------
+
+'not staged for commit' = jargon
+'not staged' 
+'not yet committed' 
+to commit, need to save 
+
+git commands:
+
+$git status		tells you what has been changed, can do this at any time
+
+change file with nano; afterwards, need to stage for commit and then commit
+
+new changes show up in red
+
+untracked files: new file, so git isn't tracking it yet.
+to track, use git add
+
+--stage for commit:
+
+$git add Argentina.cc.txt
+
+--commit and add note about what you did:
+
+$git commit -m "Fix date error in Argentina file"
+		-m for message
+
+$git log 
+
+$history | tail
+		to see recent changes
+
+
+change email/username:
+
+git config --global user.name "Kristina Mihajlovic"
+
+git push
+
+git checkout
+		revert to the last head; any changes made to files will get 

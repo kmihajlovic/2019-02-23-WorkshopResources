@@ -1,0 +1,136 @@
+Hello! I am Ah Ra Cho, Admin, College of Medicine
+Hi, I am Mariajose
+Hello, I am Reeba V
+Alice S., PhD student, CMM
+Good Morning All!!! I am Bhagyashree Manivannan, postdoc from Neuroscience
+Good morning, I am Steven Le, B.S. of Chemistry UA Graduate.
+Hi, I'm Linh T., first-year graduate student in the ABBS program.
+Hi I'm Robert. Master's student in the PSM program.
+Hi! I'm Lilly Moore from the U'Ren lab in Biosystems Engineering 
+Hi, my name is Angel. I'm a Biomedical Engineer who moonlights as a Systems Engineer.
+Hi, my name is Tim. Graduate student, SIE department
+HI, Jiali Han, graduate student from SIE department, teaching assistant for today's workshop.
+Hi I'm Lauren Melcher, Staff, BIO5 Institute, Infectious Disease Research Core
+Hi, My name is Jaymin Patel. I am in SIE department with Major in Engineering Management (Masters).
+I am Drake Asberry, PhD candidate, Second Language Acquistion and Teaching
+Hi, I'm Kristina Mihajlovic, PhD student in Linguistics
+Hello, my name is mohanad
+Hello! my name is Kara and I'm a postdoc in Pharmacology
+Hello, I am Matt Miller, PhD student in the Department of Molecular and Cellular Biology. I am doing all the typing for the Windows Display.
+Hello, I am Hao, first year ABBS student.
+Marnee Chief Applications Architect (software engineer) at College of Medicine. I am helping remotely.
+Hi! My name is Ana, I am a postdoc at the college of pharmacy
+Hi, I'm Amy, I'm an undergraduate student studying Math.
+Whats up I'm Evan
+Hi, I'm Rinku.
+Hi, my name is Emily I'm a graduate student in biomedical engineering 
+Chun -- I'll be one of your Python instructor!
+Hi my name is Graham and I'm an undergraduate studying Biology.
+Good morning :) I'm Maya, and I'm an undergrad stydying bioinformatics
+Morning, Rachel, Graduate student in Immunobiology 
+Hi, I'm Ace
+Omid, Engr Alum
+Hi, my name is Liliana PhD student from SCU
+Hi, my name Shiraz and I'm an Engineering Management grad student
+Hi my name is Devesh Khosla . I am PhD student in ECE
+I'm Tao from HAS
+I'm Kristina, I am a scientific programmer at UA and I'll be teaching git! 
+I'm Susan from UA Data Science, and I'll be teaching scripting this afternoon.
+Hi, I am Dawson, PhD student in Dept of Soil, Water and Envrionmental Science, I am teaching intro to shell!
+
+
+In your browser:
+·       Open a tab and go to the Etherpad
+·       Open a tab and go to Github and login with your account
+·       Open a tab and go to the workshop website and make sure you have installed the required software for your system.
+·       Open a tab and go to Explain shell https://explainshell.com/
+Do not worry about Shell Share
+·       Open a terminal or git bash and enter nano to check that you have nano installed
+·       Open a tab and go to our Github repository. Use the link in the Etherpad. https://github.com/UA-Carpentries-Workshops/2019-02-23-WorkshopResources
+
+           
+Welcome to The Carpentries Etherpad!
+ 
+This pad is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents.
+ 
+Use of this service is restricted to members of the Software Carpentry and Data Carpentry community; this is not for general purpose use (for that, try etherpad.wikimedia.org).
+ 
+Users are expected to follow our code of conduct: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html
+ 
+All content is publicly available under the Creative Commons Attribution License: https://creativecommons.org/licenses/by/4.0/
+ 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+Please enter your name in the section on the upper right hand corner and, hereunder, add your name and a brief intro to the list (Name again, occupation status & home department(s)
+ 
+ 
+ 
+ 
+ 
+Uwe ("Oovhe") Hilgert; Faculty; BIO5 Institute, Education, Outreach, Training
+Rachel Wong, Graduate Student, Immunobiology
+Steven Le, Post-Grad, N/A
+ 
+ 
+ 
+ 
+Please complete the pre-workshop survey at https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id=2019-02-23-Tucson!
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+General URLs (scroll down for workshop notes)
+ 
+Pre-workshop survey at https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id=2019-02-23-Tucson
+ 
+Post-workshop survey at https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=2019-02-23-Tucson
+ 
+Workshop GitHub page: https://ua-carpentries-workshops.github.io/2019-02-23-Tucson/
+ 
+Etherpad (this page) at https://pad.carpentries.org/2019-02-23-Tucson
+ 
+Software Carpentry: https://software-carpentry.org/
+Organization that the lessons are based on, promoting software literacy in the world
+ 
+Data Carpentry: https://www.datacarpentry.org/ 
+Similar/same to software carpentry, but with a focus on training to handle data
+ 
+Stack Overflow: https://stackoverflow.com/
+A place to search issues you are having, and ask questions if you do not find the question has been asked before (search well first!)
+ 
+CyVerse: https://www.cyverse.org/
+Organization at UofA building infrastructure to help researchers and help with research questions on software
+ 
+Data7: https://datascience.arizona.edu/
+ 
+BIO5 Institute: https://www.bio5.org/
+ 
+Tucson Python Meetup:
+https://www.meetup.com/Tucson-Python-Meetup/
+ 
+R Programming Help:
+https://new.library.arizona.edu/events/r-programming-help
+Every Tuesday, 9-11am
+iSpace, Science and Engineering Library
+ 
+Research Bazaar (ResBaz):
+https://researchbazaar.arizona.edu/
+Indepth, hands-on, individualized help on any data science and programming topics
+Coffee & Code - Every Tuesday, 8-10am, Catalyst Café, BSRL, 1230 N Cherry
+Hacky Hour - Every Thursday, 4-7pm, Gentle Ben's, University Blvd
+Sign up on our Meetup page to get notifications of upcoming events: https://www.shellymeetup.com/ResBazAZ/
+ 
+Free Shell and Git Tutorials on Code Academy
+https://www.codecademy.com/learn/learn-the-command-line
+https://www.codecademy.com/learn/learn-git
+
+ 
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+Workshop Notes
+ 
+SHELL LESSON LINKS
+ 
+Saturday AM-1: https://github.com/UA-Carpentries-Workshops/2019-02-23-WorkshopResources/blob/master/shell-lessons/1_intro-to-shell.md
+Saturday AM-2: https://github.com/UA-Carpentries-Workshops/Goat_Path_Git_Lesson
+Saturday PM:    https://github.com/UA-Carpentries-Workshops/2019-02-23-WorkshopResources/blob/master/shell-lessons/3_scripting_intro.md

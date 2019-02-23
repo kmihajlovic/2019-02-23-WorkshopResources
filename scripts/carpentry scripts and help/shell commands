@@ -1,0 +1,69 @@
+shell basics
+
+Instructor: Dawson Fairbanks
+
+ls -l
+ls
+
+pwd
+
+man c
+		quit: q
+
+cd Documents/
+
+cd ..
+		move up a folder
+
+cd ../..
+
+touch
+
+make
+
+###make new directory
+
+mkdir
+		make new directory
+
+cp
+		copy
+
+####go to github, fork a file
+
+git clone {clone download link}
+
+*
+		wildcard
+
+cp -r 2019-02-23-WorkshopResources/shell-lessons/data/* repository/data/original_data/
+
+		copy all 
+
+cat data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt
+
+tail -1 data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt
+
+wc
+		word count
+
+mv country.cc.txt header.txt
+
+		change the name of country.cc.txt to header.txt
+
+less
+		shortens the total amount of data you're looking at
+
+>>
+		moves to, moves something to a different place
+
+####take all these small txt files and put a header, and created one text file with all of them in it
+
+cat header.txt *.cc.txt
+		create a header
+
+$cat header.txt *.cc.txt >> ../../../processed_data/all_countries.txt
+
+wc -l all_countries.txt
+		wc -l filename.txt
+		
